@@ -1,0 +1,207 @@
+@import "../utilities/variables";
+
+// Index
+
+.index {
+    height: 500px;
+    background-image: url("https://raw.githubusercontent.com/ocampott/Proyecto-final-CODER/main/img/imagen-index.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.index__contenido {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.index__contenido--h2 {
+    color: $blanco;
+}
+
+.index__contenido--p {
+    color: $blanco;
+    width: 250px;
+}
+
+.containerIndex {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerIndex__servicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+}
+
+.containerIndex__servicio--h3 {
+    margin-bottom: 20px;
+}
+
+.containerIndex__servicio--icono {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-primario;
+    border-radius: 50%;
+}
+
+.containerIndex__servicio--p {
+    margin-bottom: 30px;
+}
+
+// Productos
+
+.containerProductos {
+    max-width: 450px;
+    width: 100%;
+    margin: auto;
+}
+
+.containerProductos__producto {
+    text-align: center;
+    max-width: 200px;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.containerProductos__producto--img {
+    width: 150px;
+}
+
+.containerProductos__producto--img:hover {
+    transform: scale(1.5);
+}
+
+// Como comprar
+
+.containerComoComprar {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.containerComoComprar__div--h3 {
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.containerComoComprar__div--p {
+    margin-bottom: 10px;
+}
+
+.containerComoComprar__tabla {
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+}
+
+.containerComoComprar__tabla--thead {
+    background-color: $color-primario;
+}
+
+.containerComoComprar__tabla--tr {
+    border: solid black 2px;
+}
+
+.containerComoComprar__tabla--td {
+    border: solid black 2px;
+}
+
+.containerComoComprar__tabla--th {
+    border: solid black 2px;
+}
+
+// Quienes somos
+
+.containerQuienesSomos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.containerQuienesSomos__div--h3 {
+    margin-bottom: 20px;
+}
+
+.containerQuienesSomos__div--p {
+    margin-bottom: 30px;
+}
+
+.containerQuienesSomos__div--img {
+    max-width: 480px;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.containerQuienesSomos__div--iframe {
+    max-width: 480px;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 70px;
+}
+
+// Contacto
+
+.containerContacto {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.containerContacto__div--form {
+    margin-bottom: 50px;
+}
+
+.containerContacto__mapa--h3 {
+    margin-bottom: 20px;
+}
+
+// Mi cuenta 
+
+.containerMiCuenta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.containerMiCuenta__form {
+    padding-bottom: 100px;
+    margin: auto;
+}
+
+.containerMiCuenta__form--div {
+    padding: 10px;
+}
+
+.containerMiCuenta__form--button {
+    background-color: $color-secundario;
+    border: $color-primario 1px solid;
+}
+
+.containerMiCuenta__form--button:hover {
+    color: $blanco;
+    background-color: $color-tercero;
+    border-color: $color-tercero;
+}

@@ -1,0 +1,11 @@
+{
+  "name": "proyecto-desarrollo-web---coder",
+  "version": "1.0.0",
+  "description": "Pagina web (proyecto) para el local familiar, Ortopedia Vida.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ocampo Tomas",
+  "license": "ISC"
+}

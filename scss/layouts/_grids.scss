@@ -1,0 +1,54 @@
+//Productos 
+
+.containerProductos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    grid-template-areas:
+        "containerProductos__1 containerProductos__2"
+        "containerProductos__3 containerProductos__4"
+        "containerProductos__5 containerProductos__6"
+        "containerProductos__7 containerProductos__8";
+}
+
+.containerProductos__1 {
+    grid-area: containerProductos__1;
+}
+
+.containerProductos__2 {
+    grid-area: containerProductos__2;
+}
+
+.containerProductos__3 {
+    grid-area: containerProductos__3;
+}
+
+.containerProductos__4 {
+    grid-area: containerProductos__4;
+}
+
+.containerProductos__5 {
+    grid-area: containerProductos__5;
+}
+
+.containerProductos__6 {
+    grid-area: containerProductos__6;
+}
+
+.containerProductos__7 {
+    grid-area: containerProductos__7;
+}
+
+.containerProductos__8 {
+    grid-area: containerProductos__8;
+}
+
+//Contacto 
+
+.containerContacto__div {
+    grid-area: form;
+}
+
+.containerContacto__mapa {
+    grid-area: mapa;
+}
