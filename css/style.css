@@ -604,7 +604,7 @@ p {
     justify-content: center;
     max-width: 700px;
     margin: auto;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
 
   .containerComoComprar__tabla {
@@ -630,7 +630,7 @@ p {
   }
 
   .containerMiCuenta {
-    margin-bottom: 295px;
+    margin-bottom: 272px;
   }
 }
 
