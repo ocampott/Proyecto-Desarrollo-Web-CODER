@@ -229,6 +229,7 @@ p {
 
 .containerProductos__producto--img {
   width: 150px;
+  margin-bottom: 20px;
 }
 
 .containerProductos__producto--img:hover {
@@ -465,6 +466,7 @@ p {
 
 .containerProductos__producto--img {
   width: 150px;
+  margin-bottom: 20px;
 }
 
 .containerProductos__producto--img:hover {
