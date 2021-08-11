@@ -80,6 +80,24 @@
     margin-top: 50px;
 }
 
+.productos--boton {
+    background-color: $color-primario;
+    color: $blanco;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+    transition: all 0.2s;
+    border: 3px solid $blanco;
+}
+
+.productos--boton:hover {
+    border-color: $color-cuarto;
+    color: $blanco;
+}
+
 .containerProductos__producto--img {
     width: 150px;
 }
@@ -88,7 +106,7 @@
     transform: scale(1.5);
 }
 
-.botonesProductos {
+.botonesProductos__links {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
