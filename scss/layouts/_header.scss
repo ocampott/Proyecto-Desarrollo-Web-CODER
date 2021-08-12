@@ -1,45 +1,21 @@
 @import "../utilities/variables";
 
-.header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(to bottom, $color-primario 0%, $color-secundario 100%);
+.containerNav {
+    background: linear-gradient(to bottom, $color-primario 0%, $color-secundario 200%);
 }
 
-.header__logo {
-    width: 300px;
-    height: 70px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+.containerNav--logo {
+    width: 250px;
+    height: 50px;
+    margin-left: 10px;
 }
 
-.nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: $color-secundario;
-    padding: 5px;
-    justify-content: center;
-    width: 100%;
-    text-align: center;
-}
-
-.nav__link {
-    display: inline-block;
-    background-color: $color-secundario;
-    color: $negro;
+.containerNav--link {
+    margin-left: 20px;
     font-weight: 500;
-    padding: 10px 30px;
-    text-decoration: none;
 }
 
-.nav__link:hover {
-    background-color: $color-tercero;
-    color: white;
-    transition: all 0.2s ease 0s;
-    border: none;
-    border-radius: 100px;
-    font-weight: 600;
+.containerNav--link:hover {
+    color: $blanco !important;
+    font-weight: 600 !important;
 }
