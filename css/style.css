@@ -324,6 +324,7 @@ p {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  margin-bottom: 163px;
 }
 
 .containerMiCuenta__form {
@@ -561,6 +562,7 @@ p {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  margin-bottom: 163px;
 }
 
 .containerMiCuenta__form {
@@ -694,7 +696,7 @@ p {
   }
 
   .containerMiCuenta {
-    margin-bottom: 272px;
+    margin-bottom: 344px;
   }
 }
 
