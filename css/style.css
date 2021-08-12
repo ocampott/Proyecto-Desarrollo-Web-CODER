@@ -633,11 +633,6 @@ p {
 }
 
 @media only screen and (min-width: 700px) {
-  .nav {
-    flex-direction: row;
-    justify-content: center;
-  }
-
   .containerIndex {
     max-width: 1200px;
     flex-direction: row;
